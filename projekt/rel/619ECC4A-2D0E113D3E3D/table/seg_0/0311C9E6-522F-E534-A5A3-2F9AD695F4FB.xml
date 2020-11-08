@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0311C9E6-522F-E534-A5A3-2F9AD695F4FB" name="soba">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>B46144F1-80F9-0305-EA5B-29C5E547FFA1</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="broj_sobe" id="8EBABDAF-8BB9-57BC-5448-94E5468A0CBA">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>7471384F-A1D3-1BD2-EC22-7C719023ECDD</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cijena" id="202FC2D5-BC29-F88E-589E-90264503EAE4">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>B0979AC9-0208-5EF5-246A-5F3288CCD2EF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_lezaja" id="2F04574E-AA43-B126-E852-10DB624C7BCC">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>A2EFC965-EA12-D32E-520C-82AC74B93CD8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E97D9916-28B2-6864-395E-D2B07C1CCF7A" name="soba_PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>F9AE203E-E406-EBAC-7268-7571A62FD18F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EBABDAF-8BB9-57BC-5448-94E5468A0CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

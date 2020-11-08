@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39F6B40F-30F1-22C0-3081-605E198D4A0E" name="zaposlenik">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:18:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="zaposlenik_id" id="F1C5B738-D135-3D89-2540-D5BB8B2364CD">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:18:26 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="posao" id="201539B3-EFBA-D12A-2050-F35ADB40F366">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:31:13 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="364AF9E7-364D-2F5F-9038-7F9A32B854AA">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:18:39 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="67D3E775-9831-768E-2DB2-286B0F1D9A63">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:18:42 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_tel" id="4873D321-EB14-29E8-B6A7-00D9D3C883B7">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:19:20 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="A7A36CDD-6C75-83D9-4F3D-C4689BF70AF2">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:19:30 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="1BEE8526-FEF4-9AA6-FF3B-BFE2F0487ED5">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:19:40 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etaza_i_broj_ mjesta" id="7F7C64D4-BB04-1383-7499-509F381657C7">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:31:00 UTC</createdTime>
+<generatorID>B29CEBDC-53A9-434B-7724-670A6D753C7B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>863BEEFC-C042-E527-B4B3-E872D02CB175</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mjesecni_iznos_ place" id="B272F00C-7891-8A4C-6C10-70552CBEF925">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-03 15:32:35 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IBAN " id="A2A595BA-3A4B-4257-2B2D-4D840B8FB851">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-03 15:33:03 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budzet" id="667A8DE7-4B2A-479C-3E2E-E03B07C153E9">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:19:59 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposlenik_id1" id="E4D46B82-FF13-E88A-AD7C-1A0E1B0E3146">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-10 18:23:31 UTC</createdTime>
+<generatorID>7F404F42-3922-747C-EBA8-C7E2F5BC4D32</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F1C5B738-D135-3D89-2540-D5BB8B2364CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4B46F23-BB4B-19DB-454A-7758C30B9DD3" name="Zaposlenik PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 11:18:31 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1C5B738-D135-3D89-2540-D5BB8B2364CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

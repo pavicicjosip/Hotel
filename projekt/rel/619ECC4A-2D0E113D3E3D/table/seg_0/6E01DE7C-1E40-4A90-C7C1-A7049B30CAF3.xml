@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E01DE7C-1E40-4A90-C7C1-A7049B30CAF3" name="zaposlenik">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>39F6B40F-30F1-22C0-3081-605E198D4A0E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zaposlenik_id" id="4807483C-1F97-030F-211E-8052820F4832">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>F1C5B738-D135-3D89-2540-D5BB8B2364CD</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="posao" id="FB6F8DB3-A65E-A4FA-DF02-96DFADC1EA76">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>201539B3-EFBA-D12A-2050-F35ADB40F366</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="995082D4-4524-C64E-CF69-3BD1BA7C1A21">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>364AF9E7-364D-2F5F-9038-7F9A32B854AA</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="95050331-7176-D1DB-DF0D-3CF6EB5F1D85">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>67D3E775-9831-768E-2DB2-286B0F1D9A63</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_tel" id="B443ADEF-503D-E3D5-19E3-612583494F2B">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>4873D321-EB14-29E8-B6A7-00D9D3C883B7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="1D17CEF8-535E-CD6B-9F31-A147CF23D4F9">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>A7A36CDD-6C75-83D9-4F3D-C4689BF70AF2</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="FCA4C601-FCAC-6483-6F7C-1FA39BD693CF">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>1BEE8526-FEF4-9AA6-FF3B-BFE2F0487ED5</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parking_mjesto_etaza_i_broj__mjesta" id="B0A5D1FB-9830-0A4E-9131-31714091039F">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>7F7C64D4-BB04-1383-7499-509F381657C7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10E0F0F8-158E-171A-B82E-95217B960D16" referredColumn="2F4E4070-ACE7-79C0-3433-F7A988CA0F99"/>
+</associations>
+</Column>
+<Column name="mjesecni_iznos__place" id="8FFC2C1A-2AF3-B85B-6AAC-8C75FB758881">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>B272F00C-7891-8A4C-6C10-70552CBEF925</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IBAN" id="3D96F557-8CF5-5BC7-31D1-15BB0045F830">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>A2A595BA-3A4B-4257-2B2D-4D840B8FB851</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="budzet" id="99ACC734-6DCE-1AD7-087F-B39A987C503F">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>667A8DE7-4B2A-479C-3E2E-E03B07C153E9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zaposlenik_zaposlenik_id" id="7CFAE4F8-C6C8-3338-010D-0A97B1516493">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>E4D46B82-FF13-E88A-AD7C-1A0E1B0E3146</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0661BACA-7A0B-7C89-FFDB-845A94DA561F" referredColumn="4807483C-1F97-030F-211E-8052820F4832"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AA13455-46C8-65FC-61A5-D7222D22CAB6" name="zaposlenik_PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>A4B46F23-BB4B-19DB-454A-7758C30B9DD3</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4807483C-1F97-030F-211E-8052820F4832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="596FF12E-E8D4-26AF-5798-978F96C96AA9" name="zaposlenik__IDX">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:07 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B29CEBDC-53A9-434B-7724-670A6D753C7B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B0A5D1FB-9830-0A4E-9131-31714091039F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6347AE2B-6E95-7061-EBBE-88D480665802" name="zaposlenik_parking_mjesto_FK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>B29CEBDC-53A9-434B-7724-670A6D753C7B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0A5D1FB-9830-0A4E-9131-31714091039F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20D8033B-7F48-8176-1403-2F4CB3EE7A04" name="zaposlenik_zaposlenik_FK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:07 UTC</createdTime>
+<generatorID>7F404F42-3922-747C-EBA8-C7E2F5BC4D32</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CFAE4F8-C6C8-3338-010D-0A97B1516493"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

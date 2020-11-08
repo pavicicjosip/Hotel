@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E89DB60-68E3-56C1-E37C-B89EB63BEF00" name="godisnji_odmor">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>571C9288-5F0B-0DAF-8182-179A3F1FAD43</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="godisnji_odmor_id" id="3D15993E-D638-927F-02B8-A1BA2CC90845">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>B62480D2-F665-354A-3260-D502D83C1313</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetak" id="D9204C1A-287C-8E0F-FDCC-EE774E0C4B22">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>035734BA-29B9-916C-79EC-CDD650376CCC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj" id="3AFF2CE2-57A7-022F-8A70-5BF6A9607E2C">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>DE79FFD2-6092-73D1-8A99-3034BBFFC470</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zaposlenik_zaposlenik_id" id="4CECC12D-7531-2DF4-D1CE-B9A537F35963">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>DE0C5C32-BB03-4EF4-D5F4-A3BE293A6F93</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="856DBEA7-5F0A-D12D-A501-93DB9227D67E" referredColumn="4807483C-1F97-030F-211E-8052820F4832"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="015343C9-19E1-DAFB-1701-337B30A8E708" name="godisnji_odmor_PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>A264C94E-98AF-F55C-0CCF-DCA073C29C85</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D15993E-D638-927F-02B8-A1BA2CC90845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79B52E8C-4420-BA6F-3C4D-F80185CAD25D" name="godisnji_odmor_zaposlenik_FK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:07 UTC</createdTime>
+<generatorID>86BCBFBE-B2E3-B8DC-47E8-DAC9C33B0459</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CECC12D-7531-2DF4-D1CE-B9A537F35963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

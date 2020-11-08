@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5756510-BD36-AA12-6F56-C5A548709037" containerWithKeyObject="7EDF9250-62EB-EA31-D105-84D88C47796C" localFKIndex="FD834F28-ED9F-E4A5-9607-3CC4A4D06FEC" name="Datum_auto_plan_FK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:07 UTC</createdTime>
+<generatorID>43F1074F-0618-0F6A-74F3-F77F16760CEF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>auto_plan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>411E82CD-9FD0-C296-B116-461F444206EB</referredTableID>
+<keyObject>774BBA2C-F99F-5058-5E96-C5634A91BB77</keyObject>
+<referredKeyID>774BBA2C-F99F-5058-5E96-C5634A91BB77</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>broj_sasije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

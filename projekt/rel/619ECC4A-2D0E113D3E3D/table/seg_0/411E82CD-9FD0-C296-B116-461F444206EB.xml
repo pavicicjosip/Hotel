@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="411E82CD-9FD0-C296-B116-461F444206EB" name="auto_plan">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>828B58D7-99E3-5243-8A68-1FCF2B53E602</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="broj_sasije" id="2D774F30-7B33-1D4C-DD69-43CF04B1F8C7">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>1B9C28F7-106D-B071-6DFF-F808329B9B5C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marka" id="8E012ACF-6803-231F-28D5-F9FA7F03E0B0">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>2131AC08-6818-D4B6-D7D4-32AE532FFA81</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model" id="5B9E598F-8D8E-271B-186D-48ED15358D20">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>7D22887D-95F5-D5D5-B208-7FCA835B8FA4</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_proizvodnje" id="76158D52-B8F1-0160-3CEE-AD84E1AFCEEB">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>339A928E-3DBD-0A63-8C61-77E3248E77E0</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potrosnja" id="E04DD598-9820-76A0-F995-09F7F0F9473E">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>CDD8260A-12AA-5F30-3C13-D3DADE14C0E4</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetni_broj_kilometara" id="88B1DC37-BC3D-A8CC-811F-4F9B209AA62C">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>E411A6CE-75FE-A7B8-3955-11AA937F4E94</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="774BBA2C-F99F-5058-5E96-C5634A91BB77" name="auto_plan_PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>D45B00C3-AF5C-3942-75A4-5E5D535BDD92</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D774F30-7B33-1D4C-DD69-43CF04B1F8C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

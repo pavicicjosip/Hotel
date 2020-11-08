@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D6B740B-49A5-CE7D-D837-1E577517A152" name="racun">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:17:49 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="broj_racuna" id="10DCF343-660D-A987-FD9C-69262C906CE1">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:21:06 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="0868A420-E277-FE6F-A4AF-0BF7C26512E0">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:21:18 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="449E0CE2-5DC4-E479-E13E-9C490043399A">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-23 11:54:56 UTC</createdTime>
+<generatorID>BBFF02A9-30F2-0898-2AC7-06DC494C36DB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<referedAttribute>166F73B9-042C-A191-1C74-1A2FA1462EBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacin_placanja" id="F2413558-A939-0925-7878-B70F7652367C">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-05 12:14:42 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_izdavanja" id="CFB4086B-C509-096A-0D1C-BE38F4FFC9DE">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-05 12:32:12 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_kartice" id="DEF1D7C6-5065-64A9-1685-6A33B0A10185">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-05 12:15:04 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59FA241A-8DAF-B7A8-D8F0-BF293A0AB8AC" name="Racun PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:21:30 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10DCF343-660D-A987-FD9C-69262C906CE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

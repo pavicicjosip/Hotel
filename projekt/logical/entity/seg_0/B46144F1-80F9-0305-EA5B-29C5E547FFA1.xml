@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B46144F1-80F9-0305-EA5B-29C5E547FFA1" name="soba">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:17:06 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="619ECC4A-D6B4-21BA-2728-2D0E113D3E3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="broj_sobe" id="7471384F-A1D3-1BD2-EC22-7C719023ECDD">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:17:16 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="619ECC4A-D6B4-21BA-2728-2D0E113D3E3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="B0979AC9-0208-5EF5-246A-5F3288CCD2EF">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-07 12:46:52 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="619ECC4A-D6B4-21BA-2728-2D0E113D3E3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_lezaja" id="A2EFC965-EA12-D32E-520C-82AC74B93CD8">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-07 12:47:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="619ECC4A-D6B4-21BA-2728-2D0E113D3E3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="1AF84144-DC34-326F-3432-9935872528BF">
+<createdBy>josip</createdBy>
+<createdTime>2020-07-06 07:00:30 UTC</createdTime>
+<generatorID>7D5C7A3B-41A9-38C9-A87B-B978FE95FD8A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="619ECC4A-D6B4-21BA-2728-2D0E113D3E3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>166F73B9-042C-A191-1C74-1A2FA1462EBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9AE203E-E406-EBAC-7268-7571A62FD18F" name="Soba PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-18 12:17:37 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="619ECC4A-D6B4-21BA-2728-2D0E113D3E3D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7471384F-A1D3-1BD2-EC22-7C719023ECDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

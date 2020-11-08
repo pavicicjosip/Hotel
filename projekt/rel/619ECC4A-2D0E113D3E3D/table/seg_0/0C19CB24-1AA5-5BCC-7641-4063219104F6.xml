@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C19CB24-1AA5-5BCC-7641-4063219104F6" name="racun">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>0D6B740B-49A5-CE7D-D837-1E577517A152</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="broj_racuna" id="AAE895A1-1009-2A51-34AF-0ECBF30280E3">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>10DCF343-660D-A987-FD9C-69262C906CE1</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="60EF96C0-BF26-CD5B-E51B-377F62AC4C75">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>0868A420-E277-FE6F-A4AF-0BF7C26512E0</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rezervacija_ID" id="FEA8AEE2-FF89-7584-3BFB-3ACF84E4E740">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>449E0CE2-5DC4-E479-E13E-9C490043399A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="679EC672-CEA2-1825-2ADB-B4BB4D78A131" referredColumn="FF133C54-624A-F085-643C-9AD4E6588E9C"/>
+</associations>
+</Column>
+<Column name="nacin_placanja" id="9A85157D-5992-7B0F-8D18-2B7D7EAE82F0">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>F2413558-A939-0925-7878-B70F7652367C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme_izdavanja" id="8282EC95-305E-659D-4D8A-E05011E79EE7">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>CFB4086B-C509-096A-0D1C-BE38F4FFC9DE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_kartice" id="2456C83C-0A20-2C3F-7049-C991C821C3E7">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>DEF1D7C6-5065-64A9-1685-6A33B0A10185</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3586C7D0-A563-17D0-A609-3F7DC8DF847A" name="racun_PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:06 UTC</createdTime>
+<generatorID>59FA241A-8DAF-B7A8-D8F0-BF293A0AB8AC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE895A1-1009-2A51-34AF-0ECBF30280E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B57CC325-CF81-E808-AA8D-B0B21E4E295A" name="racun__IDX">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:07 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BBFF02A9-30F2-0898-2AC7-06DC494C36DB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FEA8AEE2-FF89-7584-3BFB-3ACF84E4E740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B521C17B-558B-EDAB-5CF3-FF8A37D8C9B9" name="racun_rezervacija_FK">
+<createdBy>josip</createdBy>
+<createdTime>2020-06-28 11:12:07 UTC</createdTime>
+<generatorID>BBFF02A9-30F2-0898-2AC7-06DC494C36DB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEA8AEE2-FF89-7584-3BFB-3ACF84E4E740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

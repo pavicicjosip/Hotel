@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="571C9288-5F0B-0DAF-8182-179A3F1FAD43" name="godisnji_odmor">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-23 11:42:00 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="godisnji_odmor_id" id="B62480D2-F665-354A-3260-D502D83C1313">
+<createdBy>josip</createdBy>
+<createdTime>2020-05-03 15:33:35 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pocetak" id="035734BA-29B9-916C-79EC-CDD650376CCC">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-23 11:42:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kraj" id="DE79FFD2-6092-73D1-8A99-3034BBFFC470">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-23 11:42:24 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposlenik_id" id="DE0C5C32-BB03-4EF4-D5F4-A3BE293A6F93">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-23 12:16:04 UTC</createdTime>
+<generatorID>86BCBFBE-B2E3-B8DC-47E8-DAC9C33B0459</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<referedAttribute>F1C5B738-D135-3D89-2540-D5BB8B2364CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A264C94E-98AF-F55C-0CCF-DCA073C29C85" name="Godisnji odmor PK">
+<createdBy>josip</createdBy>
+<createdTime>2020-04-23 11:44:04 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="6FCA8D52-0577-A7AF-67E2-D77ADE4DBDEF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B62480D2-F665-354A-3260-D502D83C1313</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
